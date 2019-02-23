@@ -1,0 +1,9 @@
+{
+  "set": 5,
+  "code": 511,
+  "title": "Network Authentication Required",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED"
+  },
+  "uri": "https://httpstatuses.com/511"
+}

@@ -1,0 +1,9 @@
+{
+  "set": 2,
+  "code": 208,
+  "title": "Already Reported",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_ALREADY_REPORTED"
+  },
+  "uri": "https://httpstatuses.com/208"
+}

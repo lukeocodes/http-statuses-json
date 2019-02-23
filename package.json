@@ -1,0 +1,35 @@
+{
+  "name": "http-statuses-json",
+  "version": "1.0.0",
+  "description": "A static JSON data set for HTTP Status Codes",
+  "main": "app.js",
+  "scripts": {
+    "build": "bin/generate-statuses && bin/generate-index",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeocodes/http-statuses-json.git"
+  },
+  "keywords": [
+    "httpstatus",
+    "httpstatuscodes",
+    "https",
+    "http",
+    "json",
+    "api",
+    "data"
+  ],
+  "author": "Luke Oliff <luke@lukeoliff.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukeocodes/http-statuses-json/issues"
+  },
+  "homepage": "https://github.com/lukeocodes/http-statuses-json#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "front-matter": "^3.0.1"
+  }
+}

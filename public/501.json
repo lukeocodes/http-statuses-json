@@ -1,0 +1,14 @@
+{
+  "set": 5,
+  "code": 501,
+  "title": "Not Implemented",
+  "references": {
+    "Rails HTTP Status Symbol": ":not_implemented",
+    "Go HTTP Status Constant": "http.StatusNotImplemented",
+    "Symfony HTTP Status Constant": "Response::HTTP_NOT_IMPLEMENTED",
+    "Python2 HTTP Status Constant": "httplib.NOT_IMPLEMENTED",
+    "Python3+ HTTP Status Constant": "http.client.NOT_IMPLEMENTED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_IMPLEMENTED"
+  },
+  "uri": "https://httpstatuses.com/501"
+}

@@ -1,0 +1,10 @@
+{
+  "set": 5,
+  "code": 507,
+  "title": "Insufficient Storage",
+  "references": {
+    "Rails HTTP Status Symbol": ":insufficient_storage",
+    "Symfony HTTP Status Constant": "Response::HTTP_INSUFFICIENT_STORAGE"
+  },
+  "uri": "https://httpstatuses.com/507"
+}

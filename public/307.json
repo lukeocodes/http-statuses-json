@@ -1,0 +1,14 @@
+{
+  "set": 3,
+  "code": 307,
+  "title": "Temporary Redirect",
+  "references": {
+    "Rails HTTP Status Symbol": ":temporary_redirect",
+    "Go HTTP Status Constant": "http.StatusTemporaryRedirect",
+    "Symfony HTTP Status Constant": "Response::HTTP_TEMPORARY_REDIRECT",
+    "Python2 HTTP Status Constant": "httplib.TEMPORARY_REDIRECT",
+    "Python3+ HTTP Status Constant": "http.client.TEMPORARY_REDIRECT",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.TEMPORARY_REDIRECT"
+  },
+  "uri": "https://httpstatuses.com/307"
+}

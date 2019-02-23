@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 417,
+  "title": "Expectation Failed",
+  "references": {
+    "Rails HTTP Status Symbol": ":expectation_failed",
+    "Go HTTP Status Constant": "http.StatusExpectationFailed",
+    "Symfony HTTP Status Constant": "Response::HTTP_EXPECTATION_FAILED",
+    "Python2 HTTP Status Constant": "httplib.EXPECTATION_FAILED",
+    "Python3+ HTTP Status Constant": "http.client.EXPECTATION_FAILED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.EXPECTATION_FAILED"
+  },
+  "uri": "https://httpstatuses.com/417"
+}

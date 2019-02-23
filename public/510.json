@@ -1,0 +1,10 @@
+{
+  "set": 5,
+  "code": 510,
+  "title": "Not Extended",
+  "references": {
+    "Rails HTTP Status Symbol": ":not_extended",
+    "Symfony HTTP Status Constant": "Response::HTTP_NOT_EXTENDED"
+  },
+  "uri": "https://httpstatuses.com/510"
+}

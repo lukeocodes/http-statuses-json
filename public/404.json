@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 404,
+  "title": "Not Found",
+  "references": {
+    "Rails HTTP Status Symbol": ":not_found",
+    "Go HTTP Status Constant": "http.StatusNotFound",
+    "Symfony HTTP Status Constant": "Response::HTTP_NOT_FOUND",
+    "Python2 HTTP Status Constant": "httplib.NOT_FOUND",
+    "Python3+ HTTP Status Constant": "http.client.NOT_FOUND",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_FOUND"
+  },
+  "uri": "https://httpstatuses.com/404"
+}

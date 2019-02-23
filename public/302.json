@@ -1,0 +1,14 @@
+{
+  "set": 3,
+  "code": 302,
+  "title": "Found",
+  "references": {
+    "Rails HTTP Status Symbol": ":found",
+    "Go HTTP Status Constant": "http.StatusFound",
+    "Symfony HTTP Status Constant": "Response::HTTP_FOUND",
+    "Python2 HTTP Status Constant": "httplib.FOUND",
+    "Python3+ HTTP Status Constant": "http.client.FOUND",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.FOUND"
+  },
+  "uri": "https://httpstatuses.com/302"
+}

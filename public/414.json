@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 414,
+  "title": "Request-URI Too Long",
+  "references": {
+    "Rails HTTP Status Symbol": ":request_uri_too_long",
+    "Go HTTP Status Constant": "http.StatusRequestURITooLong",
+    "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_URI_TOO_LONG",
+    "Python2 HTTP Status Constant": "httplib.REQUEST_URI_TOO_LONG",
+    "Python3+ HTTP Status Constant": "http.client.REQUEST_URI_TOO_LONG",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUEST_URI_TOO_LONG"
+  },
+  "uri": "https://httpstatuses.com/414"
+}

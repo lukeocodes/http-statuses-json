@@ -1,0 +1,11 @@
+{
+  "set": 4,
+  "code": 424,
+  "title": "Failed Dependency",
+  "references": {
+    "Rails HTTP Status Symbol": "failed_dependency",
+    "Symfony HTTP Status Constant": "Response::HTTP_FAILED_DEPENDENCY",
+    "Python HTTP Status Constant": "httplib.FAILED_DEPENDENCY"
+  },
+  "uri": "https://httpstatuses.com/424"
+}

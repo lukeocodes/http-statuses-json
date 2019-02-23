@@ -1,0 +1,10 @@
+{
+  "set": 2,
+  "code": 226,
+  "title": "IM Used",
+  "references": {
+    "Rails HTTP Status Symbol": ":im_used",
+    "Symfony HTTP Status Constant": "Response::HTTP_IM_USED"
+  },
+  "uri": "https://httpstatuses.com/226"
+}

@@ -1,0 +1,10 @@
+{
+  "set": 4,
+  "code": 422,
+  "title": "Unprocessable Entity",
+  "references": {
+    "Rails HTTP Status Symbol": ":unprocessable_entity",
+    "Symfony HTTP Status Constant": "Response::HTTP_UNPROCESSABLE_ENTITY"
+  },
+  "uri": "https://httpstatuses.com/422"
+}

@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 407,
+  "title": "Proxy Authentication Required",
+  "references": {
+    "Rails HTTP Status Symbol": ":proxy_authentication_required",
+    "Go HTTP Status Constant": "http.StatusProxyAuthRequired",
+    "Symfony HTTP Status Constant": "Response::HTTP_PROXY_AUTHENTICATION_REQUIRED",
+    "Python2 HTTP Status Constant": "httplib.PROXY_AUTHENTICATION_REQUIRED",
+    "Python3+ HTTP Status Constant": "http.client.PROXY_AUTHENTICATION_REQUIRED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PROXY_AUTHENTICATION_REQUIRED"
+  },
+  "uri": "https://httpstatuses.com/407"
+}

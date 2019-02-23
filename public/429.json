@@ -1,0 +1,9 @@
+{
+  "set": 4,
+  "code": 429,
+  "title": "Too Many Requests",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_TOO_MANY_REQUESTS"
+  },
+  "uri": "https://httpstatuses.com/429"
+}

@@ -1,0 +1,9 @@
+{
+  "set": 5,
+  "code": 508,
+  "title": "Loop Detected",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_LOOP_DETECTED"
+  },
+  "uri": "https://httpstatuses.com/508"
+}

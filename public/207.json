@@ -1,0 +1,10 @@
+{
+  "set": 2,
+  "code": 207,
+  "title": "Multi-Status",
+  "references": {
+    "Rails HTTP Status Symbol": ":multi_status",
+    "Symfony HTTP Status Constant": "Response::HTTP_MULTI_STATUS"
+  },
+  "uri": "https://httpstatuses.com/207"
+}

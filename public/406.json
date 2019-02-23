@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 406,
+  "title": "Not Acceptable",
+  "references": {
+    "Rails HTTP Status Symbol": ":not_acceptable",
+    "Go HTTP Status Constant": "http.StatusNotAcceptable",
+    "Symfony HTTP Status Constant": "Response::HTTP_NOT_ACCEPTABLE",
+    "Python2 HTTP Status Constant": "httplib.NOT_ACCEPTABLE",
+    "Python3+ HTTP Status Constant": "http.client.NOT_ACCEPTABLE",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_ACCEPTABLE"
+  },
+  "uri": "https://httpstatuses.com/406"
+}

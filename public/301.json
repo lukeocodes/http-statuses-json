@@ -1,0 +1,14 @@
+{
+  "set": 3,
+  "code": 301,
+  "title": "Moved Permanently",
+  "references": {
+    "Rails HTTP Status Symbol": ":moved_permanently",
+    "Go HTTP Status Constant": "http.StatusMovedPermanently",
+    "Symfony HTTP Status Constant": "Response::HTTP_MOVED_PERMANENTLY",
+    "Python2 HTTP Status Constant": "httplib.MOVED_PERMANENTLY",
+    "Python3+ HTTP Status Constant": "http.client.MOVED_PERMANENTLY",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.MOVED_PERMANENTLY"
+  },
+  "uri": "https://httpstatuses.com/301"
+}

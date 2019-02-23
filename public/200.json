@@ -1,0 +1,14 @@
+{
+  "set": 2,
+  "code": 200,
+  "title": "OK",
+  "references": {
+    "Rails HTTP Status Symbol": ":ok",
+    "Go HTTP Status Constant": "http.StatusOK",
+    "Symfony HTTP Status Constant": "Response::HTTP_OK",
+    "Python2 HTTP Status Constant": "httplib.OK",
+    "Python3+ HTTP Status Constant": "http.client.OK",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.OK"
+  },
+  "uri": "https://httpstatuses.com/200"
+}

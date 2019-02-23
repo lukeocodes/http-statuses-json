@@ -1,0 +1,14 @@
+{
+  "set": 3,
+  "code": 300,
+  "title": "Multiple Choices",
+  "references": {
+    "Rails HTTP Status Symbol": ":multiple_choices",
+    "Go HTTP Status Constant": "http.StatusMultipleChoices",
+    "Symfony HTTP Status Constant": "Response::HTTP_MULTIPLE_CHOICES",
+    "Python2 HTTP Status Constant": "httplib.MULTIPLE_CHOICES",
+    "Python3+ HTTP Status Constant": "http.client.MULTIPLE_CHOICES",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.MULTIPLE_CHOICES"
+  },
+  "uri": "https://httpstatuses.com/300"
+}

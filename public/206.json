@@ -1,0 +1,14 @@
+{
+  "set": 2,
+  "code": 206,
+  "title": "Partial Content",
+  "references": {
+    "Rails HTTP Status Symbol": ":partial_content",
+    "Go HTTP Status Constant": "http.StatusPartialContent",
+    "Symfony HTTP Status Constant": "Response::HTTP_PARTIAL_CONTENT",
+    "Python2 HTTP Status Constant": "httplib.PARTIAL_CONTENT",
+    "Python3+ HTTP Status Constant": "http.client.PARTIAL_CONTENT",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PARTIAL_CONTENT"
+  },
+  "uri": "https://httpstatuses.com/206"
+}

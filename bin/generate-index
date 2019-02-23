@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+const fs = require('fs')
+const path = require('path')
+
+const findStatusFiles = async (dataDir, dataArray) => {
+  const files = await new Promise(function(resolve, reject) {
+    fs.readdir(dataDir, (err, files) => {
+        if (err) 
+            reject(err)
+        else 
+            resolve(files)
+    });
+  });
+
+  for (const file of files) {
+    const data = await new Promise(function(resolve, reject) {
+      fs.readFile(`${dataDir}${file}`, 'utf8', (err, data) => {
+          if (err) 
+              reject(err)
+          else 
+              resolve(JSON.parse(data))
+      });
+    });
+  
+    dataArray.push(data)
+  }
+}
+
+const writeJsonFile = async () => {
+  var dataArray = new Array
+  await findStatusFiles('./public/', dataArray)
+
+  fs.writeFile(`./public/index.json`, JSON.stringify(dataArray, null, 2), (err) => { 
+    if (err) throw err 
+  })
+}
+
+writeJsonFile();

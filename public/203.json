@@ -1,0 +1,14 @@
+{
+  "set": 2,
+  "code": 203,
+  "title": "Non-authoritative Information",
+  "references": {
+    "Rails HTTP Status Symbol": ":non_authoritative_information",
+    "Go HTTP Status Constant": "http.StatusNonAuthoritativeInfo",
+    "Symfony HTTP Status Constant": "Response::HTTP_NON_AUTHORITATIVE_INFORMATION",
+    "Python2 HTTP Status Constant": "httplib.NON_AUTHORITATIVE_INFORMATION",
+    "Python3+ HTTP Status Constant": "http.client.NON_AUTHORITATIVE_INFORMATION",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NON_AUTHORITATIVE_INFORMATION"
+  },
+  "uri": "https://httpstatuses.com/203"
+}

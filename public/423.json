@@ -1,0 +1,10 @@
+{
+  "set": 4,
+  "code": 423,
+  "title": "Locked",
+  "references": {
+    "Rails HTTP Status Symbol": ":locked",
+    "Symfony HTTP Status Constant": "Response::HTTP_LOCKED"
+  },
+  "uri": "https://httpstatuses.com/423"
+}

@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 400,
+  "title": "Bad Request",
+  "references": {
+    "Rails HTTP Status Symbol": "bad_request",
+    "Go HTTP Status Constant": "http.StatusBadRequest",
+    "Symfony HTTP Status Constant": "Response::HTTP_BAD_REQUEST",
+    "Python2 HTTP Status Constant": "httplib.BAD_REQUEST",
+    "Python3+ HTTP Status Constant": "http.client.BAD_REQUEST",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.BAD_REQUEST"
+  },
+  "uri": "https://httpstatuses.com/400"
+}

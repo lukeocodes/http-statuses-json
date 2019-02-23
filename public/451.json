@@ -1,0 +1,9 @@
+{
+  "set": 4,
+  "code": 451,
+  "title": "Unavailable For Legal Reasons",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_UNAVAILABLE_FOR_LEGAL_REASONS"
+  },
+  "uri": "https://httpstatuses.com/451"
+}

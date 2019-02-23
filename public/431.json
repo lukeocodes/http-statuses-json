@@ -1,0 +1,9 @@
+{
+  "set": 4,
+  "code": 431,
+  "title": "Request Header Fields Too Large",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_HEADER_FIELDS_TOO_LARGE"
+  },
+  "uri": "https://httpstatuses.com/431"
+}

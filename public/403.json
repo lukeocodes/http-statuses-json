@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 403,
+  "title": "Forbidden",
+  "references": {
+    "Rails HTTP Status Symbol": ":forbidden",
+    "Go HTTP Status Constant": "http.StatusForbidden",
+    "Symfony HTTP Status Constant": "Response::HTTP_FORBIDDEN",
+    "Python2 HTTP Status Constant": "httplib.FORBIDDEN",
+    "Python3+ HTTP Status Constant": "http.client.FORBIDDEN",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.FORBIDDEN"
+  },
+  "uri": "https://httpstatuses.com/403"
+}

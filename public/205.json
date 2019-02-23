@@ -1,0 +1,14 @@
+{
+  "set": 2,
+  "code": 205,
+  "title": "Reset Content",
+  "references": {
+    "Rails HTTP Status Symbol": ":reset_content",
+    "Go HTTP Status Constant": "http.StatusResetContent",
+    "Symfony HTTP Status Constant": "Response::HTTP_RESET_CONTENT",
+    "Python2 HTTP Status Constant": "httplib.RESET_CONTENT",
+    "Python3+ HTTP Status Constant": "http.client.RESET_CONTENT",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.RESET_CONTENT"
+  },
+  "uri": "https://httpstatuses.com/205"
+}

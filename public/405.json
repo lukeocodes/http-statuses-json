@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 405,
+  "title": "Method Not Allowed",
+  "references": {
+    "Rails HTTP Status Symbol": ":method_not_allowed",
+    "Go HTTP Status Constant": "http.StatusMethodNotAllowed",
+    "Symfony HTTP Status Constant": "Response::HTTP_METHOD_NOT_ALLOWED",
+    "Python2 HTTP Status Constant": "httplib.METHOD_NOT_ALLOWED",
+    "Python3+ HTTP Status Constant": "http.client.METHOD_NOT_ALLOWED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.METHOD_NOT_ALLOWED"
+  },
+  "uri": "https://httpstatuses.com/405"
+}

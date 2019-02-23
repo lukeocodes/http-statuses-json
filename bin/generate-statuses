@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+const fs = require('fs')
+const fm = require('front-matter')
+const path = require('path')
+
+const frontmatterToJson = (data, callback) => callback({
+  set: data.attributes.set,
+  code: data.attributes.code,
+  title: data.attributes.title,
+  references: data.attributes.references,
+  uri: `https://httpstatuses.com/${data.attributes.code}`
+})
+
+const getFrontmatterFromFile = (file, callback) => fs.readFile(file, 'utf8', (err, input) => {
+  if (err) throw err
+ 
+  var data = fm(input)
+
+  frontmatterToJson(data, callback)
+})
+
+const writeJsonFile = (data) => {
+  fs.writeFile(`./public/${data.code}.json`, JSON.stringify(data, null, 2), (err) => { 
+    if (err) throw err 
+  })
+}
+
+const findMarkdownFiles = (dataDir) => {
+  fs.readdir(dataDir, (err, files) => {
+    if (err) throw err
+
+    files.forEach(function(file) {
+      const extname = path.extname(file)
+      if (extname === '.md') {
+        getFrontmatterFromFile(`${dataDir}${file}`, writeJsonFile)
+      }
+    })
+  })
+}
+
+findMarkdownFiles('./data/')

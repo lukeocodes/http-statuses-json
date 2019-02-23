@@ -1,0 +1,14 @@
+{
+  "set": 3,
+  "code": 304,
+  "title": "Not Modified",
+  "references": {
+    "Rails HTTP Status Symbol": ":not_modified",
+    "Go HTTP Status Constant": "http.StatusNotModified",
+    "Symfony HTTP Status Constant": "Response::HTTP_NOT_MODIFIED",
+    "Python2 HTTP Status Constant": "httplib.NOT_MODIFIED",
+    "Python3+ HTTP Status Constant": "http.client.NOT_MODIFIED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_MODIFIED"
+  },
+  "uri": "https://httpstatuses.com/304"
+}

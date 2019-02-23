@@ -1,0 +1,9 @@
+{
+  "set": 4,
+  "code": 421,
+  "title": "Misdirected Request",
+  "references": {
+    "Rails HTTP Status Symbol": ":misdirected_request"
+  },
+  "uri": "https://httpstatuses.com/421"
+}

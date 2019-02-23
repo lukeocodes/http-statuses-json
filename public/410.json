@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 410,
+  "title": "Gone",
+  "references": {
+    "Rails HTTP Status Symbol": ":gone",
+    "Go HTTP Status Constant": "http.StatusGone",
+    "Symfony HTTP Status Constant": "Response::HTTP_GONE",
+    "Python2 HTTP Status Constant": "httplib.GONE",
+    "Python3+ HTTP Status Constant": "http.client.GONE",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.GONE"
+  },
+  "uri": "https://httpstatuses.com/410"
+}

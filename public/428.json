@@ -1,0 +1,9 @@
+{
+  "set": 4,
+  "code": 428,
+  "title": "Precondition Required",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_PRECONDITION_REQUIRED"
+  },
+  "uri": "https://httpstatuses.com/428"
+}

@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 409,
+  "title": "Conflict",
+  "references": {
+    "Rails HTTP Status Symbol": ":conflict",
+    "Go HTTP Status Constant": "http.StatusConflict",
+    "Symfony HTTP Status Constant": "Response::HTTP_CONFLICT",
+    "Python2 HTTP Status Constant": "httplib.CONFLICT",
+    "Python3+ HTTP Status Constant": "http.client.CONFLICT",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.CONFLICT"
+  },
+  "uri": "https://httpstatuses.com/409"
+}

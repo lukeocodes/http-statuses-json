@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 415,
+  "title": "Unsupported Media Type",
+  "references": {
+    "Rails HTTP Status Symbol": ":unsupported_media_type",
+    "Go HTTP Status Constant": "http.StatusUnsupportedMediaType",
+    "Symfony HTTP Status Constant": "Response::HTTP_UNSUPPORTED_MEDIA_TYPE",
+    "Python2 HTTP Status Constant": "httplib.UNSUPPORTED_MEDIA_TYPE",
+    "Python3+ HTTP Status Constant": "http.client.UNSUPPORTED_MEDIA_TYPE",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.UNSUPPORTED_MEDIA_TYPE"
+  },
+  "uri": "https://httpstatuses.com/415"
+}

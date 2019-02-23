@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 412,
+  "title": "Precondition Failed",
+  "references": {
+    "Rails HTTP Status Symbol": ":precondition_failed",
+    "Go HTTP Status Constant": "http.StatusPreconditionFailed",
+    "Symfony HTTP Status Constant": "Response::HTTP_PRECONDITION_FAILED",
+    "Python2 HTTP Status Constant": "httplib.PRECONDITION_FAILED",
+    "Python3+ HTTP Status Constant": "http.client.PRECONDITION_FAILED",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PRECONDITION_FAILED"
+  },
+  "uri": "https://httpstatuses.com/412"
+}

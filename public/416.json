@@ -1,0 +1,14 @@
+{
+  "set": 4,
+  "code": 416,
+  "title": "Requested Range Not Satisfiable",
+  "references": {
+    "Rails HTTP Status Symbol": ":requested_range_not_satisfiable",
+    "Go HTTP Status Constant": "http.StatusRequestedRangeNotSatisfiable",
+    "Symfony HTTP Status Constant": "Response::HTTP_REQUESTED_RANGE_NOT_SATISFIABLE",
+    "Python2 HTTP Status Constant": "httplib.REQUESTED_RANGE_NOT_SATISFIABLE",
+    "Python3+ HTTP Status Constant": "http.client.REQUESTED_RANGE_NOT_SATISFIABLE",
+    "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUESTED_RANGE_NOT_SATISFIABLE"
+  },
+  "uri": "https://httpstatuses.com/416"
+}

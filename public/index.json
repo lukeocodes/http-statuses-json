@@ -1,0 +1,763 @@
+[
+  {
+    "set": 1,
+    "code": 100,
+    "title": "Continue",
+    "references": {
+      "Rails HTTP Status Symbol": ":continue",
+      "Go HTTP Status Constant": "http.StatusContinue",
+      "Symfony HTTP Status Constant": "Response::HTTP_CONTINUE",
+      "Python2 HTTP Status Constant": "httplib.CONTINUE",
+      "Python3+ HTTP Status Constant": "http.client.CONTINUE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.CONTINUE"
+    },
+    "uri": "https://httpstatuses.com/100"
+  },
+  {
+    "set": 1,
+    "code": 101,
+    "title": "Switching Protocols",
+    "references": {
+      "Rails HTTP Status Symbol": ":switching_protocols",
+      "Go HTTP Status Constant": "http.StatusSwitchingProtocols",
+      "Symfony HTTP Status Constant": "Response::HTTP_SWITCHING_PROTOCOLS",
+      "Python2 HTTP Status Constant": "httplib.SWITCHING_PROTOCOLS",
+      "Python3+ HTTP Status Constant": "http.client.SWITCHING_PROTOCOLS",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.SWITCHING_PROTOCOLS"
+    },
+    "uri": "https://httpstatuses.com/101"
+  },
+  {
+    "set": 1,
+    "code": 102,
+    "title": "Processing",
+    "references": {
+      "Rails HTTP Status Symbol": ":processing",
+      "Symfony HTTP Status Constant": "Response::HTTP_PROCESSING"
+    },
+    "uri": "https://httpstatuses.com/102"
+  },
+  {
+    "set": 2,
+    "code": 200,
+    "title": "OK",
+    "references": {
+      "Rails HTTP Status Symbol": ":ok",
+      "Go HTTP Status Constant": "http.StatusOK",
+      "Symfony HTTP Status Constant": "Response::HTTP_OK",
+      "Python2 HTTP Status Constant": "httplib.OK",
+      "Python3+ HTTP Status Constant": "http.client.OK",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.OK"
+    },
+    "uri": "https://httpstatuses.com/200"
+  },
+  {
+    "set": 2,
+    "code": 201,
+    "title": "Created",
+    "references": {
+      "Rails HTTP Status Symbol": ":created",
+      "Go HTTP Status Constant": "http.StatusCreated",
+      "Symfony HTTP Status Constant": "Response::HTTP_CREATED",
+      "Python2 HTTP Status Constant": "httplib.CREATED",
+      "Python3+ HTTP Status Constant": "http.client.CREATED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.CREATED"
+    },
+    "uri": "https://httpstatuses.com/201"
+  },
+  {
+    "set": 2,
+    "code": 202,
+    "title": "Accepted",
+    "references": {
+      "Rails HTTP Status Symbol": ":accepted",
+      "Go HTTP Status Constant": "http.StatusAccepted",
+      "Symfony HTTP Status Constant": "Response::HTTP_ACCEPTED",
+      "Python2 HTTP Status Constant": "httplib.ACCEPTED",
+      "Python3+ HTTP Status Constant": "http.client.ACCEPTED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.ACCEPTED"
+    },
+    "uri": "https://httpstatuses.com/202"
+  },
+  {
+    "set": 2,
+    "code": 203,
+    "title": "Non-authoritative Information",
+    "references": {
+      "Rails HTTP Status Symbol": ":non_authoritative_information",
+      "Go HTTP Status Constant": "http.StatusNonAuthoritativeInfo",
+      "Symfony HTTP Status Constant": "Response::HTTP_NON_AUTHORITATIVE_INFORMATION",
+      "Python2 HTTP Status Constant": "httplib.NON_AUTHORITATIVE_INFORMATION",
+      "Python3+ HTTP Status Constant": "http.client.NON_AUTHORITATIVE_INFORMATION",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NON_AUTHORITATIVE_INFORMATION"
+    },
+    "uri": "https://httpstatuses.com/203"
+  },
+  {
+    "set": 2,
+    "code": 204,
+    "title": "No Content",
+    "references": {
+      "Rails HTTP Status Symbol": ":no_content",
+      "Go HTTP Status Constant": "http.StatusNoContent",
+      "Symfony HTTP Status Constant": "Response::HTTP_NO_CONTENT",
+      "Python2 HTTP Status Constant": "httplib.NO_CONTENT",
+      "Python3+ HTTP Status Constant": "http.client.NO_CONTENT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NO_CONTENT"
+    },
+    "uri": "https://httpstatuses.com/204"
+  },
+  {
+    "set": 2,
+    "code": 205,
+    "title": "Reset Content",
+    "references": {
+      "Rails HTTP Status Symbol": ":reset_content",
+      "Go HTTP Status Constant": "http.StatusResetContent",
+      "Symfony HTTP Status Constant": "Response::HTTP_RESET_CONTENT",
+      "Python2 HTTP Status Constant": "httplib.RESET_CONTENT",
+      "Python3+ HTTP Status Constant": "http.client.RESET_CONTENT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.RESET_CONTENT"
+    },
+    "uri": "https://httpstatuses.com/205"
+  },
+  {
+    "set": 2,
+    "code": 206,
+    "title": "Partial Content",
+    "references": {
+      "Rails HTTP Status Symbol": ":partial_content",
+      "Go HTTP Status Constant": "http.StatusPartialContent",
+      "Symfony HTTP Status Constant": "Response::HTTP_PARTIAL_CONTENT",
+      "Python2 HTTP Status Constant": "httplib.PARTIAL_CONTENT",
+      "Python3+ HTTP Status Constant": "http.client.PARTIAL_CONTENT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PARTIAL_CONTENT"
+    },
+    "uri": "https://httpstatuses.com/206"
+  },
+  {
+    "set": 2,
+    "code": 207,
+    "title": "Multi-Status",
+    "references": {
+      "Rails HTTP Status Symbol": ":multi_status",
+      "Symfony HTTP Status Constant": "Response::HTTP_MULTI_STATUS"
+    },
+    "uri": "https://httpstatuses.com/207"
+  },
+  {
+    "set": 2,
+    "code": 208,
+    "title": "Already Reported",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_ALREADY_REPORTED"
+    },
+    "uri": "https://httpstatuses.com/208"
+  },
+  {
+    "set": 2,
+    "code": 226,
+    "title": "IM Used",
+    "references": {
+      "Rails HTTP Status Symbol": ":im_used",
+      "Symfony HTTP Status Constant": "Response::HTTP_IM_USED"
+    },
+    "uri": "https://httpstatuses.com/226"
+  },
+  {
+    "set": 3,
+    "code": 300,
+    "title": "Multiple Choices",
+    "references": {
+      "Rails HTTP Status Symbol": ":multiple_choices",
+      "Go HTTP Status Constant": "http.StatusMultipleChoices",
+      "Symfony HTTP Status Constant": "Response::HTTP_MULTIPLE_CHOICES",
+      "Python2 HTTP Status Constant": "httplib.MULTIPLE_CHOICES",
+      "Python3+ HTTP Status Constant": "http.client.MULTIPLE_CHOICES",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.MULTIPLE_CHOICES"
+    },
+    "uri": "https://httpstatuses.com/300"
+  },
+  {
+    "set": 3,
+    "code": 301,
+    "title": "Moved Permanently",
+    "references": {
+      "Rails HTTP Status Symbol": ":moved_permanently",
+      "Go HTTP Status Constant": "http.StatusMovedPermanently",
+      "Symfony HTTP Status Constant": "Response::HTTP_MOVED_PERMANENTLY",
+      "Python2 HTTP Status Constant": "httplib.MOVED_PERMANENTLY",
+      "Python3+ HTTP Status Constant": "http.client.MOVED_PERMANENTLY",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.MOVED_PERMANENTLY"
+    },
+    "uri": "https://httpstatuses.com/301"
+  },
+  {
+    "set": 3,
+    "code": 302,
+    "title": "Found",
+    "references": {
+      "Rails HTTP Status Symbol": ":found",
+      "Go HTTP Status Constant": "http.StatusFound",
+      "Symfony HTTP Status Constant": "Response::HTTP_FOUND",
+      "Python2 HTTP Status Constant": "httplib.FOUND",
+      "Python3+ HTTP Status Constant": "http.client.FOUND",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.FOUND"
+    },
+    "uri": "https://httpstatuses.com/302"
+  },
+  {
+    "set": 3,
+    "code": 303,
+    "title": "See Other",
+    "references": {
+      "Rails HTTP Status Symbol": ":see_other",
+      "Go HTTP Status Constant": "http.StatusSeeOther",
+      "Symfony HTTP Status Constant": "Response::HTTP_SEE_OTHER",
+      "Python2 HTTP Status Constant": "httplib.SEE_OTHER",
+      "Python3+ HTTP Status Constant": "http.client.SEE_OTHER",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.SEE_OTHER"
+    },
+    "uri": "https://httpstatuses.com/303"
+  },
+  {
+    "set": 3,
+    "code": 304,
+    "title": "Not Modified",
+    "references": {
+      "Rails HTTP Status Symbol": ":not_modified",
+      "Go HTTP Status Constant": "http.StatusNotModified",
+      "Symfony HTTP Status Constant": "Response::HTTP_NOT_MODIFIED",
+      "Python2 HTTP Status Constant": "httplib.NOT_MODIFIED",
+      "Python3+ HTTP Status Constant": "http.client.NOT_MODIFIED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_MODIFIED"
+    },
+    "uri": "https://httpstatuses.com/304"
+  },
+  {
+    "set": 3,
+    "code": 305,
+    "title": "Use Proxy",
+    "uri": "https://httpstatuses.com/305"
+  },
+  {
+    "set": 3,
+    "code": 307,
+    "title": "Temporary Redirect",
+    "references": {
+      "Rails HTTP Status Symbol": ":temporary_redirect",
+      "Go HTTP Status Constant": "http.StatusTemporaryRedirect",
+      "Symfony HTTP Status Constant": "Response::HTTP_TEMPORARY_REDIRECT",
+      "Python2 HTTP Status Constant": "httplib.TEMPORARY_REDIRECT",
+      "Python3+ HTTP Status Constant": "http.client.TEMPORARY_REDIRECT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.TEMPORARY_REDIRECT"
+    },
+    "uri": "https://httpstatuses.com/307"
+  },
+  {
+    "set": 3,
+    "code": 308,
+    "title": "Permanent Redirect",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_PERMANENTLY_REDIRECT"
+    },
+    "uri": "https://httpstatuses.com/308"
+  },
+  {
+    "set": 4,
+    "code": 400,
+    "title": "Bad Request",
+    "references": {
+      "Rails HTTP Status Symbol": "bad_request",
+      "Go HTTP Status Constant": "http.StatusBadRequest",
+      "Symfony HTTP Status Constant": "Response::HTTP_BAD_REQUEST",
+      "Python2 HTTP Status Constant": "httplib.BAD_REQUEST",
+      "Python3+ HTTP Status Constant": "http.client.BAD_REQUEST",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.BAD_REQUEST"
+    },
+    "uri": "https://httpstatuses.com/400"
+  },
+  {
+    "set": 4,
+    "code": 401,
+    "title": "Unauthorized",
+    "references": {
+      "Rails HTTP Status Symbol": ":unauthorized",
+      "Go HTTP Status Constant": "http.StatusUnauthorized",
+      "Symfony HTTP Status Constant": "Response::HTTP_UNAUTHORIZED",
+      "Python2 HTTP Status Constant": "httplib.UNAUTHORIZED",
+      "Python3+ HTTP Status Constant": "http.client.UNAUTHORIZED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.UNAUTHORIZED"
+    },
+    "uri": "https://httpstatuses.com/401"
+  },
+  {
+    "set": 4,
+    "code": 402,
+    "title": "Payment Required",
+    "references": {
+      "Rails HTTP Status Symbol": ":payment_required",
+      "Go HTTP Status Constant": "http.StatusPaymentRequired",
+      "Symfony HTTP Status Constant": "Response::HTTP_PAYMENT_REQUIRED",
+      "Python2 HTTP Status Constant": "httplib.PAYMENT_REQUIRED",
+      "Python3+ HTTP Status Constant": "http.client.PAYMENT_REQUIRED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PAYMENT_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/402"
+  },
+  {
+    "set": 4,
+    "code": 403,
+    "title": "Forbidden",
+    "references": {
+      "Rails HTTP Status Symbol": ":forbidden",
+      "Go HTTP Status Constant": "http.StatusForbidden",
+      "Symfony HTTP Status Constant": "Response::HTTP_FORBIDDEN",
+      "Python2 HTTP Status Constant": "httplib.FORBIDDEN",
+      "Python3+ HTTP Status Constant": "http.client.FORBIDDEN",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.FORBIDDEN"
+    },
+    "uri": "https://httpstatuses.com/403"
+  },
+  {
+    "set": 4,
+    "code": 404,
+    "title": "Not Found",
+    "references": {
+      "Rails HTTP Status Symbol": ":not_found",
+      "Go HTTP Status Constant": "http.StatusNotFound",
+      "Symfony HTTP Status Constant": "Response::HTTP_NOT_FOUND",
+      "Python2 HTTP Status Constant": "httplib.NOT_FOUND",
+      "Python3+ HTTP Status Constant": "http.client.NOT_FOUND",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_FOUND"
+    },
+    "uri": "https://httpstatuses.com/404"
+  },
+  {
+    "set": 4,
+    "code": 405,
+    "title": "Method Not Allowed",
+    "references": {
+      "Rails HTTP Status Symbol": ":method_not_allowed",
+      "Go HTTP Status Constant": "http.StatusMethodNotAllowed",
+      "Symfony HTTP Status Constant": "Response::HTTP_METHOD_NOT_ALLOWED",
+      "Python2 HTTP Status Constant": "httplib.METHOD_NOT_ALLOWED",
+      "Python3+ HTTP Status Constant": "http.client.METHOD_NOT_ALLOWED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.METHOD_NOT_ALLOWED"
+    },
+    "uri": "https://httpstatuses.com/405"
+  },
+  {
+    "set": 4,
+    "code": 406,
+    "title": "Not Acceptable",
+    "references": {
+      "Rails HTTP Status Symbol": ":not_acceptable",
+      "Go HTTP Status Constant": "http.StatusNotAcceptable",
+      "Symfony HTTP Status Constant": "Response::HTTP_NOT_ACCEPTABLE",
+      "Python2 HTTP Status Constant": "httplib.NOT_ACCEPTABLE",
+      "Python3+ HTTP Status Constant": "http.client.NOT_ACCEPTABLE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_ACCEPTABLE"
+    },
+    "uri": "https://httpstatuses.com/406"
+  },
+  {
+    "set": 4,
+    "code": 407,
+    "title": "Proxy Authentication Required",
+    "references": {
+      "Rails HTTP Status Symbol": ":proxy_authentication_required",
+      "Go HTTP Status Constant": "http.StatusProxyAuthRequired",
+      "Symfony HTTP Status Constant": "Response::HTTP_PROXY_AUTHENTICATION_REQUIRED",
+      "Python2 HTTP Status Constant": "httplib.PROXY_AUTHENTICATION_REQUIRED",
+      "Python3+ HTTP Status Constant": "http.client.PROXY_AUTHENTICATION_REQUIRED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PROXY_AUTHENTICATION_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/407"
+  },
+  {
+    "set": 4,
+    "code": 408,
+    "title": "Request Timeout",
+    "references": {
+      "Rails HTTP Status Symbol": ":request_timeout",
+      "Go HTTP Status Constant": "http.StatusRequestTimeout",
+      "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_TIMEOUT",
+      "Python2 HTTP Status Constant": "httplib.REQUEST_TIMEOUT",
+      "Python3+ HTTP Status Constant": "http.client.REQUEST_TIMEOUT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUEST_TIMEOUT"
+    },
+    "uri": "https://httpstatuses.com/408"
+  },
+  {
+    "set": 4,
+    "code": 409,
+    "title": "Conflict",
+    "references": {
+      "Rails HTTP Status Symbol": ":conflict",
+      "Go HTTP Status Constant": "http.StatusConflict",
+      "Symfony HTTP Status Constant": "Response::HTTP_CONFLICT",
+      "Python2 HTTP Status Constant": "httplib.CONFLICT",
+      "Python3+ HTTP Status Constant": "http.client.CONFLICT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.CONFLICT"
+    },
+    "uri": "https://httpstatuses.com/409"
+  },
+  {
+    "set": 4,
+    "code": 410,
+    "title": "Gone",
+    "references": {
+      "Rails HTTP Status Symbol": ":gone",
+      "Go HTTP Status Constant": "http.StatusGone",
+      "Symfony HTTP Status Constant": "Response::HTTP_GONE",
+      "Python2 HTTP Status Constant": "httplib.GONE",
+      "Python3+ HTTP Status Constant": "http.client.GONE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.GONE"
+    },
+    "uri": "https://httpstatuses.com/410"
+  },
+  {
+    "set": 4,
+    "code": 411,
+    "title": "Length Required",
+    "references": {
+      "Rails HTTP Status Symbol": ":length_required",
+      "Go HTTP Status Constant": "http.StatusLengthRequired",
+      "Symfony HTTP Status Constant": "Response::HTTP_LENGTH_REQUIRED",
+      "Python2 HTTP Status Constant": "httplib.LENGTH_REQUIRED",
+      "Python3+ HTTP Status Constant": "http.client.LENGTH_REQUIRED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.LENGTH_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/411"
+  },
+  {
+    "set": 4,
+    "code": 412,
+    "title": "Precondition Failed",
+    "references": {
+      "Rails HTTP Status Symbol": ":precondition_failed",
+      "Go HTTP Status Constant": "http.StatusPreconditionFailed",
+      "Symfony HTTP Status Constant": "Response::HTTP_PRECONDITION_FAILED",
+      "Python2 HTTP Status Constant": "httplib.PRECONDITION_FAILED",
+      "Python3+ HTTP Status Constant": "http.client.PRECONDITION_FAILED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.PRECONDITION_FAILED"
+    },
+    "uri": "https://httpstatuses.com/412"
+  },
+  {
+    "set": 4,
+    "code": 413,
+    "title": "Payload Too Large",
+    "references": {
+      "Rails HTTP Status Symbol": ":request_entity_too_large",
+      "Go HTTP Status Constant": "http.StatusRequestEntityTooLarge",
+      "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_ENTITY_TOO_LARGE",
+      "Python2 HTTP Status Constant": "httplib.REQUEST_ENTITY_TOO_LARGE",
+      "Python3+ HTTP Status Constant": "http.client.REQUEST_ENTITY_TOO_LARGE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUEST_ENTITY_TOO_LARGE"
+    },
+    "uri": "https://httpstatuses.com/413"
+  },
+  {
+    "set": 4,
+    "code": 414,
+    "title": "Request-URI Too Long",
+    "references": {
+      "Rails HTTP Status Symbol": ":request_uri_too_long",
+      "Go HTTP Status Constant": "http.StatusRequestURITooLong",
+      "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_URI_TOO_LONG",
+      "Python2 HTTP Status Constant": "httplib.REQUEST_URI_TOO_LONG",
+      "Python3+ HTTP Status Constant": "http.client.REQUEST_URI_TOO_LONG",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUEST_URI_TOO_LONG"
+    },
+    "uri": "https://httpstatuses.com/414"
+  },
+  {
+    "set": 4,
+    "code": 415,
+    "title": "Unsupported Media Type",
+    "references": {
+      "Rails HTTP Status Symbol": ":unsupported_media_type",
+      "Go HTTP Status Constant": "http.StatusUnsupportedMediaType",
+      "Symfony HTTP Status Constant": "Response::HTTP_UNSUPPORTED_MEDIA_TYPE",
+      "Python2 HTTP Status Constant": "httplib.UNSUPPORTED_MEDIA_TYPE",
+      "Python3+ HTTP Status Constant": "http.client.UNSUPPORTED_MEDIA_TYPE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.UNSUPPORTED_MEDIA_TYPE"
+    },
+    "uri": "https://httpstatuses.com/415"
+  },
+  {
+    "set": 4,
+    "code": 416,
+    "title": "Requested Range Not Satisfiable",
+    "references": {
+      "Rails HTTP Status Symbol": ":requested_range_not_satisfiable",
+      "Go HTTP Status Constant": "http.StatusRequestedRangeNotSatisfiable",
+      "Symfony HTTP Status Constant": "Response::HTTP_REQUESTED_RANGE_NOT_SATISFIABLE",
+      "Python2 HTTP Status Constant": "httplib.REQUESTED_RANGE_NOT_SATISFIABLE",
+      "Python3+ HTTP Status Constant": "http.client.REQUESTED_RANGE_NOT_SATISFIABLE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.REQUESTED_RANGE_NOT_SATISFIABLE"
+    },
+    "uri": "https://httpstatuses.com/416"
+  },
+  {
+    "set": 4,
+    "code": 417,
+    "title": "Expectation Failed",
+    "references": {
+      "Rails HTTP Status Symbol": ":expectation_failed",
+      "Go HTTP Status Constant": "http.StatusExpectationFailed",
+      "Symfony HTTP Status Constant": "Response::HTTP_EXPECTATION_FAILED",
+      "Python2 HTTP Status Constant": "httplib.EXPECTATION_FAILED",
+      "Python3+ HTTP Status Constant": "http.client.EXPECTATION_FAILED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.EXPECTATION_FAILED"
+    },
+    "uri": "https://httpstatuses.com/417"
+  },
+  {
+    "set": 4,
+    "code": 418,
+    "title": "I'm a teapot",
+    "references": {
+      "Go HTTP Status Constant": "http.StatusTeapot",
+      "Symfony HTTP Status Constant": "Response::HTTP_I_AM_A_TEAPOT"
+    },
+    "uri": "https://httpstatuses.com/418"
+  },
+  {
+    "set": 4,
+    "code": 421,
+    "title": "Misdirected Request",
+    "references": {
+      "Rails HTTP Status Symbol": ":misdirected_request"
+    },
+    "uri": "https://httpstatuses.com/421"
+  },
+  {
+    "set": 4,
+    "code": 422,
+    "title": "Unprocessable Entity",
+    "references": {
+      "Rails HTTP Status Symbol": ":unprocessable_entity",
+      "Symfony HTTP Status Constant": "Response::HTTP_UNPROCESSABLE_ENTITY"
+    },
+    "uri": "https://httpstatuses.com/422"
+  },
+  {
+    "set": 4,
+    "code": 423,
+    "title": "Locked",
+    "references": {
+      "Rails HTTP Status Symbol": ":locked",
+      "Symfony HTTP Status Constant": "Response::HTTP_LOCKED"
+    },
+    "uri": "https://httpstatuses.com/423"
+  },
+  {
+    "set": 4,
+    "code": 424,
+    "title": "Failed Dependency",
+    "references": {
+      "Rails HTTP Status Symbol": "failed_dependency",
+      "Symfony HTTP Status Constant": "Response::HTTP_FAILED_DEPENDENCY",
+      "Python HTTP Status Constant": "httplib.FAILED_DEPENDENCY"
+    },
+    "uri": "https://httpstatuses.com/424"
+  },
+  {
+    "set": 4,
+    "code": 426,
+    "title": "Upgrade Required",
+    "references": {
+      "Rails HTTP Status Symbol": ":upgrade_required",
+      "Symfony HTTP Status Constant": "Response::HTTP_UPGRADE_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/426"
+  },
+  {
+    "set": 4,
+    "code": 428,
+    "title": "Precondition Required",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_PRECONDITION_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/428"
+  },
+  {
+    "set": 4,
+    "code": 429,
+    "title": "Too Many Requests",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_TOO_MANY_REQUESTS"
+    },
+    "uri": "https://httpstatuses.com/429"
+  },
+  {
+    "set": 4,
+    "code": 431,
+    "title": "Request Header Fields Too Large",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_REQUEST_HEADER_FIELDS_TOO_LARGE"
+    },
+    "uri": "https://httpstatuses.com/431"
+  },
+  {
+    "set": 4,
+    "code": 444,
+    "title": "Connection Closed Without Response",
+    "uri": "https://httpstatuses.com/444"
+  },
+  {
+    "set": 4,
+    "code": 451,
+    "title": "Unavailable For Legal Reasons",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_UNAVAILABLE_FOR_LEGAL_REASONS"
+    },
+    "uri": "https://httpstatuses.com/451"
+  },
+  {
+    "set": 4,
+    "code": 499,
+    "title": "Client Closed Request",
+    "uri": "https://httpstatuses.com/499"
+  },
+  {
+    "set": 5,
+    "code": 500,
+    "title": "Internal Server Error",
+    "references": {
+      "Rails HTTP Status Symbol": ":internal_server_error",
+      "Go HTTP Status Constant": "http.StatusInternalServerError",
+      "Symfony HTTP Status Constant": "Response::HTTP_INTERNAL_SERVER_ERROR",
+      "Python2 HTTP Status Constant": "httplib.INTERNAL_SERVER_ERROR",
+      "Python3+ HTTP Status Constant": "http.client.INTERNAL_SERVER_ERROR",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.INTERNAL_SERVER_ERROR"
+    },
+    "uri": "https://httpstatuses.com/500"
+  },
+  {
+    "set": 5,
+    "code": 501,
+    "title": "Not Implemented",
+    "references": {
+      "Rails HTTP Status Symbol": ":not_implemented",
+      "Go HTTP Status Constant": "http.StatusNotImplemented",
+      "Symfony HTTP Status Constant": "Response::HTTP_NOT_IMPLEMENTED",
+      "Python2 HTTP Status Constant": "httplib.NOT_IMPLEMENTED",
+      "Python3+ HTTP Status Constant": "http.client.NOT_IMPLEMENTED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.NOT_IMPLEMENTED"
+    },
+    "uri": "https://httpstatuses.com/501"
+  },
+  {
+    "set": 5,
+    "code": 502,
+    "title": "Bad Gateway",
+    "references": {
+      "Rails HTTP Status Symbol": ":bad_gateway",
+      "Go HTTP Status Constant": "http.StatusBadGateway",
+      "Symfony HTTP Status Constant": "Response::HTTP_BAD_GATEWAY",
+      "Python2 HTTP Status Constant": "httplib.BAD_GATEWAY",
+      "Python3+ HTTP Status Constant": "http.client.BAD_GATEWAY",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.BAD_GATEWAY"
+    },
+    "uri": "https://httpstatuses.com/502"
+  },
+  {
+    "set": 5,
+    "code": 503,
+    "title": "Service Unavailable",
+    "references": {
+      "Rails HTTP Status Symbol": ":service_unavailable",
+      "Go HTTP Status Constant": "http.StatusServiceUnavailable",
+      "Symfony HTTP Status Constant": "Response::HTTP_SERVICE_UNAVAILABLE",
+      "Python2 HTTP Status Constant": "httplib.SERVICE_UNAVAILABLE",
+      "Python3+ HTTP Status Constant": "http.client.SERVICE_UNAVAILABLE",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.SERVICE_UNAVAILABLE"
+    },
+    "uri": "https://httpstatuses.com/503"
+  },
+  {
+    "set": 5,
+    "code": 504,
+    "title": "Gateway Timeout",
+    "references": {
+      "Rails HTTP Status Symbol": ":gateway_timeout",
+      "Go HTTP Status Constant": "http.StatusGatewayTimeout",
+      "Symfony HTTP Status Constant": "Response::HTTP_GATEWAY_TIMEOUT",
+      "Python2 HTTP Status Constant": "httplib.GATEWAY_TIMEOUT",
+      "Python3+ HTTP Status Constant": "http.client.GATEWAY_TIMEOUT",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.GATEWAY_TIMEOUT"
+    },
+    "uri": "https://httpstatuses.com/504"
+  },
+  {
+    "set": 5,
+    "code": 505,
+    "title": "HTTP Version Not Supported",
+    "references": {
+      "Rails HTTP Status Symbol": ":http_version_not_supported",
+      "Go HTTP Status Constant": "http.StatusHTTPVersionNotSupported",
+      "Symfony HTTP Status Constant": "Response::HTTP_VERSION_NOT_SUPPORTED",
+      "Python2 HTTP Status Constant": "httplib.VERSION_NOT_SUPPORTED",
+      "Python3+ HTTP Status Constant": "http.client.VERSION_NOT_SUPPORTED",
+      "Python3.5+ HTTP Status Constant": "http.HTTPStatus.VERSION_NOT_SUPPORTED"
+    },
+    "uri": "https://httpstatuses.com/505"
+  },
+  {
+    "set": 5,
+    "code": 506,
+    "title": "Variant Also Negotiates",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_VARIANT_ALSO_NEGOTIATES_EXPERIMENTAL"
+    },
+    "uri": "https://httpstatuses.com/506"
+  },
+  {
+    "set": 5,
+    "code": 507,
+    "title": "Insufficient Storage",
+    "references": {
+      "Rails HTTP Status Symbol": ":insufficient_storage",
+      "Symfony HTTP Status Constant": "Response::HTTP_INSUFFICIENT_STORAGE"
+    },
+    "uri": "https://httpstatuses.com/507"
+  },
+  {
+    "set": 5,
+    "code": 508,
+    "title": "Loop Detected",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_LOOP_DETECTED"
+    },
+    "uri": "https://httpstatuses.com/508"
+  },
+  {
+    "set": 5,
+    "code": 510,
+    "title": "Not Extended",
+    "references": {
+      "Rails HTTP Status Symbol": ":not_extended",
+      "Symfony HTTP Status Constant": "Response::HTTP_NOT_EXTENDED"
+    },
+    "uri": "https://httpstatuses.com/510"
+  },
+  {
+    "set": 5,
+    "code": 511,
+    "title": "Network Authentication Required",
+    "references": {
+      "Symfony HTTP Status Constant": "Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED"
+    },
+    "uri": "https://httpstatuses.com/511"
+  },
+  {
+    "set": 5,
+    "code": 599,
+    "title": "Network Connect Timeout Error",
+    "uri": "https://httpstatuses.com/599"
+  }
+]

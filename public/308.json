@@ -1,0 +1,9 @@
+{
+  "set": 3,
+  "code": 308,
+  "title": "Permanent Redirect",
+  "references": {
+    "Symfony HTTP Status Constant": "Response::HTTP_PERMANENTLY_REDIRECT"
+  },
+  "uri": "https://httpstatuses.com/308"
+}
